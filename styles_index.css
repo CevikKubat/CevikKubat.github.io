@@ -1,4 +1,5 @@
 html {
+    font-family: "Helvetica Neue"
 
 }
 
@@ -15,6 +16,11 @@ header {
 }
 
 main {
+
+}
+
+nav {
+    color:black
 
 }
 
