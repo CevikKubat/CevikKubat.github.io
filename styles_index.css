@@ -3,10 +3,6 @@ html {
 
 }
 
-head {
-
-}
-
 body {
 
 }
@@ -15,13 +11,21 @@ header {
 
 }
 
+h1 {
+    text-align: center;
+}
+
 main {
 
 }
 
 nav {
-    color:black
+    text-align:center
+}
 
+a {
+    color:black;
+    text-decoration: none;
 }
 
 footer {
