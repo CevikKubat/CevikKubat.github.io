@@ -14,6 +14,8 @@ header {
 h1 {
     text-align: center;
     color: rgba(238, 255, 128, 0.663);
+    font-size: 30px;
+    font-weight: lighter
 }
 
 main {
@@ -22,8 +24,7 @@ main {
 
 nav {
     text-align: center;
-    text-size-adjust: 10x;
-
+    font-weight: 300
 }
 
 a {
