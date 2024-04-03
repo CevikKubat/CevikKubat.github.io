@@ -1,6 +1,6 @@
 html {
-    font-family: "Helvetica Neue"
-
+    font-family: "Helvetica Neue";
+    background-color: rgb(23, 23, 28)
 }
 
 body {
@@ -13,6 +13,7 @@ header {
 
 h1 {
     text-align: center;
+    color: rgba(238, 255, 128, 0.663);
 }
 
 main {
@@ -20,11 +21,13 @@ main {
 }
 
 nav {
-    text-align:center
+    text-align: center;
+    text-size-adjust: 10x;
+
 }
 
 a {
-    color:black;
+    color:rgb(220, 234, 149);
     text-decoration: none;
 }
 
