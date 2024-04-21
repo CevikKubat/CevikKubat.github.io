@@ -1,26 +1,46 @@
-html {
+html{
     font-family: "Helvetica Neue";
-    background-color: rgb(23, 23, 28)
+    background-color: rgb(149, 149, 193)
 }
 
-body {
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-
+.menu-container{
+    color: #fff;
+    background-color: blue;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 
-h1 {
+.menu{
+    border: 1px solid #fff; /* For debugging */
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login{
+    margin-left: 20px;
+}
+
+/*h1 {
     text-align: center;
     color: rgba(238, 255, 128, 0.663);
     font-size: 30px;
     font-weight: lighter
 }
 
-main {
 
-}
 
 nav {
     text-align: center;
@@ -31,7 +51,4 @@ a {
     color:rgb(220, 234, 149);
     text-decoration: none;
 }
-
-footer {
-
-}
+*/
