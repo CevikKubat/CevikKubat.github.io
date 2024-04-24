@@ -1,3 +1,4 @@
+/* GENERAL-STYLES BEGINNING*/
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ html{
     font-variant: 'Wotfard', 'Wotfard-fallback', sans-serif;
     background-color: rgb(31, 31, 44)
 }
+/* GENERAL-STYLES END*/
 
 /* FLEX-CONTAINER BEGINNING*/
 .upper-bar{
