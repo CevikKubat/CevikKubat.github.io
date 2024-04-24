@@ -1,54 +1,52 @@
-html{
-    font-family: "Helvetica Neue";
-    background-color: rgb(149, 149, 193)
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.menu-container{
-    color: #fff;
-    background-color: blue;
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;
+html{
+    font-family: 'Sriracha', 'Wotfard', Futura, -apple-system, sans-serif;
+    font-variant: 'Wotfard', 'Wotfard-fallback', sans-serif;
+    background-color: rgb(31, 31, 44)
 }
 
-.menu{
-    border: 1px solid #fff; /* For debugging */
-    width: 900px;
+/* FLEX-CONTAINER BEGINNING*/
+.upper-bar{
+    color:rgb(220, 234, 149);
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 15px;
+}
+
+.links-small{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: end;
+}
+
+.links-small a{
+    color:rgb(220, 234, 149);
+    text-decoration: none;
+    font-size: 13px;
 }
 
 .links{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
 }
+/* FLEX-CONTAINER END*/
 
-.login{
-    margin-left: 20px;
-}
-
-/*h1 {
-    text-align: center;
-    color: rgba(238, 255, 128, 0.663);
-    font-size: 30px;
-    font-weight: lighter
-}
-
-
-
-nav {
-    text-align: center;
-    font-weight: 300
-}
-
-a {
+/* Change text color of links*/
+.links a{
     color:rgb(220, 234, 149);
     text-decoration: none;
 }
-*/
